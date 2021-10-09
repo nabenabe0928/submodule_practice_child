@@ -1,0 +1,3 @@
+[submodule "submodule_practice_parent"]
+	path = submodule_practice_parent
+	url = https://github.com/nabenabe0928/submodule_practice_parent
