@@ -1,10 +1,10 @@
-from submodule_practice_parent import main
+from submodule_practice_parent.func import sphere
 import numpy as np
 
 
 def start():
     X = np.arange(6)
-    print(main.sphere(X))
+    print(sphere(X))
 
 
 if __name__ == '__main__':
