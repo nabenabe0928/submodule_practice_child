@@ -10,7 +10,8 @@ requirements.append(
     "submodule_practice_parent "
     "@ git+ssh://git@"
     "github.com/nabenabe0928/submodule_practice_parent"
-    "@v0.0.1#egg=submodule_practice_parent"
+    # "@v0.0.1#egg=submodule_practice_parent"
+    "#egg=submodule_practice_parent"
 )
 
 setuptools.setup(
